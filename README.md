@@ -1,4 +1,4 @@
-# Collection of project files for seminars from the CapitalOne Engineering Summit
+# Seminars from the CapitalOne Engineering Summit
 
 ## Day 1
 - Github
