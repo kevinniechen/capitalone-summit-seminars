@@ -122,6 +122,18 @@ $ git checkout -b version2 v2.0.0
 Switched to a new branch 'version2'
 ```
 
+# Remote
+origin is just the default remote name
+
+```
+git remote -v
+git remote rm/add
+```
+
+# Fork/pull
+Creating isolated versions of a repository without giving adminsitrative access, and allow contributions through pull kequests
+Branch-oriented
+
 # Other
 
 ## Github Wiki
