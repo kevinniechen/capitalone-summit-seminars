@@ -1,0 +1,15 @@
+http://slides.com/brianacrabb/deck-1#/15
+
+# EC2
+
+Create key pair
+Create security group (SSH/HTTP) for web, (MySQL) for database
+Launch instance
+User data:
+```
+	sudo yum update -y
+	sudo yum install -y httpd php mysql
+	sudo service httpd start
+	sudo chkconfig httpd on
+```
+Tags are additional key-value pairs (metadata to identify owner/purpose/env)
