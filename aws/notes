@@ -13,3 +13,35 @@ User data:
 	sudo chkconfig httpd on
 ```
 Tags are additional key-value pairs (metadata to identify owner/purpose/env)
+
+
+# RDS
+
+Use over EC2 database because of extensive features and maintenance (backups, multiple regions, etc)
+
+- relational DBs
+- resizable
+
+# S3
+
+Object/file storage
+
+Buckets are global (names must be unique)
+
+
+# Simple SNS notification service
+
+Subscription based service to push messages to individuals, or mass groups
+
+- Can connect with other AWS services
+
+
+# Results
+- EC2
+- Security Groups
+- Key Pairs
+- AMI
+- RDS
+- SNS
+- Launch Config
+- Autoscaling Group
